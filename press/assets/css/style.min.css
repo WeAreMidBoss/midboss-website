@@ -13,23 +13,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 ::-moz-selection {
-    background: #d6facd
+    background: #e195bf
 }
 
 ::-ms-selection {
-    background: #d6facd
+    background: #e195bf
 }
 
 ::-o-selection {
-    background: #d6facd
+    background: #e195bf
 }
 
 ::-webkit-selection {
-    background: #d6facd
+    background: #e195bf
 }
 
 ::selection {
-    background: #d6facd
+    background: #e195bf
 }
 
 * {
