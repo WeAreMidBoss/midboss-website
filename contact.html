@@ -13,8 +13,24 @@
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="MidBoss">
+  <meta name="og:description" content="MidBoss is a games and media production studio headquartered in Berkeley, California. Projects include 2064: Read Only Memories, a cyberpunk point-and-click adventure, and the acclaimed documentary, Gaming in Color.">
+  <meta name="og:image" content="https://midboss.com/imgs/MidBossOG.png">
+  <meta name="og:url" content="https://midboss.com/">
+  <meta name="og:site_name" content="MidBoss">
+  <meta name="og:type" content="website">
+  <!-- Search Engine -->
+  <meta name="description" content="MidBoss is a games and media production studio headquartered in Berkeley, California. Projects include 2064: Read Only Memories, a cyberpunk point-and-click adventure, and the acclaimed documentary, Gaming in Color.">
+  <meta name="image" content="https://midboss.com/imgs/MidBossOG.png">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="MidBoss">
+  <meta itemprop="description" content="MidBoss is a games and media production studio headquartered in Berkeley, California. Projects include 2064: Read Only Memories, a cyberpunk point-and-click adventure, and the acclaimed documentary, Gaming in Color.">
+  <meta itemprop="image" content="https://midboss.com/imgs/MidBossOG.png">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MidBoss">
+  <meta name="twitter:description" content="MidBoss is a games and media production studio headquartered in Berkeley, California. Projects include 2064: Read Only Memories, a cyberpunk point-and-click adventure, and the acclaimed documentary, Gaming in Color.">
   <link rel="icon" href="./imgs/favicon.ico">
 
   <title>MidBoss • Contact</title>
@@ -76,7 +92,7 @@
                <form class="card p-2" action="https://formspree.io/info@midboss.com" method="POST">
                 <div class="mb-3">
                   <label for="firstName">Name <span class="text-muted">(Required)</span></label>
-                  <input type="text" class="form-control" id="name" placeholder="" value="" required>
+                  <input type="text" class="form-control" name="_name" id="name" placeholder="" value="" required>
                   <div class="invalid-feedback">
                     Valid name is required.
                   </div>
@@ -84,7 +100,7 @@
 
                 <div class="mb-3">
                   <label for="email">Email <span class="text-muted">(Required)</span></label>
-                  <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                  <input type="email" class="form-control" name="_replyto" id="email" placeholder="you@example.com" required>
                   <div class="invalid-feedback">
                     Please enter a valid email address for shipping updates.
                   </div>
@@ -92,7 +108,7 @@
 
                 <div class="mb-3">
                   <label for="subject">Subject <span class="text-muted">(Required)</span></label>
-                  <input type="text" class="form-control" id="subject" placeholder="" value="" required>
+                  <input type="text" class="form-control" name="_subject" id="subject" placeholder="" value="" required>
                   <div class="invalid-feedback">
                     Valid first name is required.
                   </div>
@@ -100,7 +116,7 @@
 
                 <div class="mb-3">
                   <label for="message">Message <span class="text-muted">(Required)</span></label>
-                  <textarea class="form-control" rows="4" id="message" placeholder="" value="" required></textarea>
+                  <textarea class="form-control" rows="4" name="_message" id="message" placeholder="" value="" required></textarea>
                 </div>
 
                <button class="btn btn-pink btn-lg btn-block" type="submit">Send</button>
