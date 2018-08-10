@@ -1,14 +1,13 @@
 @font-face {
-    font-family: 'BebasNeue';
-    src: url('fonts/BebasNeue-Regular.eot');
-    src: url('BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
-         url('BebasNeue-Regular.woff2') format('woff2'),
-         url('BebasNeue-Regular.woff') format('woff'),
-         url('BebasNeue-Regular.ttf') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-
-}
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue-Regular.eot');
+  src: url('../fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+       url('../fonts/BebasNeue-Regular.woff') format('woff'),
+       url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+};
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
