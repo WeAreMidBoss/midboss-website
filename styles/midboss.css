@@ -350,6 +350,17 @@ fieldset[disabled] .btn-pink.active {
   background-color: #ffffff;
 }
 
+#features .feature4 {
+  width: 275px;
+  padding-top: 15px;
+}
+
+#features .feature4 img {
+  float: center;
+  height: 86px;
+  margin: 20px 0 20px 95px;
+}
+
 #features .feature {
   width: 220px;
   padding-top: 15px;
