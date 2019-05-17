@@ -12,23 +12,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 ::-moz-selection {
-  background: #e195bf
+  background: #00a3b7
 }
 
 ::-ms-selection {
-  background: #e195bf
+  background: #00a3b7
 }
 
 ::-o-selection {
-  background: #e195bf
+  background: #00a3b7
 }
 
 ::-webkit-selection {
-  background: #e195bf
+  background: #00a3b7
 }
 
 ::selection {
-  background: #e195bf
+  background: #00a3b7
 }
 
 * {
@@ -73,6 +73,21 @@ h2 {
     font-size: 2.5em
 }
 
+h4 {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr {
+  border-width: 1px;
+  border-color: #3e3c39;
+  margin-bottom: 3.0rem;
+  margin-top: 3.0rem;
+}
+
 a {
     color: #A8A8A8;
     text-decoration: none
@@ -84,12 +99,12 @@ a:focus {
 }
 
 main a {
-    color: #e195bf
+    color: #00a3b7
 }
 
 main a:hover,
 main a:focus {
-    color: #C279AA;
+    color: #008595;
     text-decoration: none;
 }
 
@@ -98,25 +113,26 @@ html, body {
   height: 100%;
 }
 body {
-  background: #000000;
+  background: #d7d4ce;
   font-family: 'Open Sans', sans-serif;
-  color: #fff;
+  color: #3e3c39;
   line-height: 1.5;
   margin: 0;
   padding: 0;
 }
 .jumbotron {
-  background: #000000;
+  background: #d7d4ce;
   padding: 0;
   margin-bottom: 0;
   border-bottom: solid 2px #666;
 }
 #main-content {
-  background: #414042; /* Old browsers */
-  background: -moz-linear-gradient(top, #414042 0%, #000000 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #414042 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #414042 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414042', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3ab9a+0,d7d4ce+100 */
+  background: #d7d4ce; /* Old browsers */
+  background: -moz-linear-gradient(top, #d7d4ce 0%, #f2f1ee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d7d4ce 0%,#f2f1ee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d7d4ce 0%,#f2f1ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d4ce', endColorstr='#f2f1ee',GradientType=0 ); /* IE6-9 */
   padding: 2.5em 0 7em;
 }
 .padding-top {
@@ -138,11 +154,11 @@ body {
     color: #f2c6df;
 }
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #e195bf
+  color: #00a3b7
 }
 footer {
-  background: #000;
-  border-top: solid 2px #414042;
+  background: #f2f1ee;
+  border-top: solid 1px #3e3c39;
   padding: 2.5em 0em 0.8em;
   font-size: 0.7em;
   line-height: 1.5;
@@ -192,7 +208,7 @@ footer .social-links a:last-child img {
   margin-right: 10px !important;
   display:inline-block;
   border-radius: 100%;
-  border: solid #e195bf 1px;
+  border: solid #00a3b7 1px;
   background: #ffffff;
   opacity: 1
 }
@@ -200,7 +216,7 @@ footer .social-links a:last-child img {
   margin-right: 0;
 }
 .swiper-pagination-bullet-active {
-  background: #e195bf;
+  background: #00a3b7;
   opacity: 1
 }
 
@@ -291,7 +307,7 @@ footer .social-links a:last-child img {
 
 .btn-pink {
   color: #ffffff;
-  background-color: #E195BF;
+  background-color: #00a3b7;
   border-color: #D185AF;
 }
 
@@ -326,12 +342,74 @@ fieldset[disabled] .btn-pink:active,
 .btn-pink.disabled.active,
 .btn-pink[disabled].active,
 fieldset[disabled] .btn-pink.active {
-  background-color: #E195BF;
+  background-color: #00a3b7;
   border-color: #D185AF;
 }
 
 .btn-pink .badge {
-  color: #E195BF;
+  color: #00a3b7;
   background-color: #ffffff;
+}
+
+#features .feature4 {
+  width: 275px;
+  padding-top: 15px;
+}
+
+#features .feature4 img {
+  float: center;
+  height: 86px;
+  margin: 20px 0 20px 95px;
+}
+
+#features .feature {
+  width: 220px;
+  padding-top: 15px;
+}
+
+#features .feature img {
+  float: center;
+  height: 86px;
+  margin: 20px 0 20px 67px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#pricing h2 {
+  margin-top: 20px;
+}
+
+#pricing h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#pricing .plan {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+#pricing .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+#pricing ul.details {
+  list-style: none;
+  font-weight: none;
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+
+#pricing .free {
+  margin-top: 24px;
+}
+
+.apply-button {
+  width: 200px;
+  margin: 0 auto;
 }
 

@@ -65,6 +65,7 @@ h3 {
     font-family: 'BebasNeue';
     font-weight: normal;
     font-size: 1.8rem;
+    color:#decbde;
     margin-bottom: .5rem;
 }
 
@@ -98,25 +99,31 @@ html, body {
   height: 100%;
 }
 body {
-  background: #000000;
+  background: #2c296b;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   line-height: 1.5;
   margin: 0;
   padding: 0;
 }
+
+hr {
+    border-top: 1px solid #fff;
+    margin:35px 0 35px 0;
+}
+
 .jumbotron {
-  background: #000000;
+  background: #3a3c7e;
   padding: 0;
   margin-bottom: 0;
-  border-bottom: solid 2px #666;
+  border-bottom: solid 2px #2c296b;
 }
 #main-content {
-  background: #414042; /* Old browsers */
-  background: -moz-linear-gradient(top, #414042 0%, #000000 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #414042 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #414042 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414042', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+  background: #2c296b; /* Old browsers */
+  background: -moz-linear-gradient(top, #2c296b 0%, #3a3c7e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #2c296b 0%,#3a3c7e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #2c296b 0%,#3a3c7e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c296b', endColorstr='#3a3c7e',GradientType=0 ); /* IE6-9 */
   padding: 2.5em 0 7em;
 }
 .padding-top {
@@ -141,8 +148,8 @@ body {
   color: #e195bf
 }
 footer {
-  background: #000;
-  border-top: solid 2px #414042;
+  background: #2c296b;
+  border-top: solid 2px #fff;
   padding: 2.5em 0em 0.8em;
   font-size: 0.7em;
   line-height: 1.5;
@@ -335,3 +342,16 @@ fieldset[disabled] .btn-pink.active {
   background-color: #ffffff;
 }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
