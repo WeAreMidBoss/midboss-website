@@ -355,3 +355,10 @@ fieldset[disabled] .btn-pink.active {
     width: 100%;
     height: 100%;
 }
+
+.streamers img{
+  border-color: #222157;
+  border-width: 5px;
+  border-style: solid;
+  margin-bottom: 30px;
+}
