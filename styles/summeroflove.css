@@ -362,3 +362,18 @@ fieldset[disabled] .btn-pink.active {
   border-style: solid !important;
   margin-bottom: 30px !important;
 }
+
+a.gamelink {color:#bdbeff;}
+a.gamelink:link  {text-decoration: none; color: #bdbeff;}
+a.gamelink:visited {text-decoration: none; color: #bdbeff;}
+a.gamelink:hover {text-decoration: underline; color: #bdbeff;}
+a.gamelink:active {text-decoration: none; color: #bdbeff;}
+
+td:nth-child(even){background-color: #272861;}
+
+/*table.table tbody tr td,
+table.table thead tr th,
+table.table thead {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}*/
