@@ -389,6 +389,50 @@ a.showSingle {
     color:#f6e2a4;
 }
 
+ .clases{
+        background:#163d51;
+        width:952px;
+        margin:0 auto;
+
+    }
+    #horario {
+        background:#CCC;
+        font-size:14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        border-left:5px solid #CCC;
+        border-right:5px solid #CCC;
+        color:#4D4D4D;
+    }
+    #horario thead{
+        border-bottom: 1px solid #FFF;
+        text-transform: uppercase;
+    }
+    #horario td,#horario th{
+        padding:15px 15px;
+    }
+
+    #horario tr th:nth-child(even), #horario tr td:nth-child(even) {background: #e6e6e6}
+
+    #horario .name{
+        display:block;
+        font-weight:bold;
+    }
+    #horario .instructor{
+
+    }
+        .clases h2{
+            text-transform: uppercase;
+            color:#FFF;
+            font-size:32px;
+            text-align: center;
+            margin-top: -10px;
+        }
+        .clases .wrapper{
+            padding:34px;
+            width:auto;
+        }
+
 /*table.table tbody tr td,
 table.table thead tr th,
 table.table thead {
