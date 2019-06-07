@@ -371,6 +371,24 @@ a.gamelink:active {text-decoration: none; color: #bdbeff;}
 
 td:nth-child(even){background-color: #272861;}
 
+a.showSingle {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.buttons{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'BebasNeue';
+    font-weight: normal;
+}
+
+.notice{
+    font-size: 15px;
+    color:#f6e2a4;
+}
+
 /*table.table tbody tr td,
 table.table thead tr th,
 table.table thead {

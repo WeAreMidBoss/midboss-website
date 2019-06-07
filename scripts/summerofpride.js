@@ -5,7 +5,7 @@ $(function(){
         var ds = new Miso.Dataset({
           importer : Miso.Dataset.Importers.GoogleSpreadsheet,
           parser : Miso.Dataset.Parsers.GoogleSpreadsheet,
-          key : "0AmiwpEaQwxurdDc5N0JQU1ZjQmdjeDVfWWJ6TEJuWHc",
+          key : "2PACX-1vTBySEbvEgVsSkmecl5SUDpQLEp5lzdPKWbGEPhILAE5w1YGnSwDo3TNHQ7ZoKGkiYfpijqS92tcOwQ",
           worksheet : "1"
         });
 
@@ -59,71 +59,20 @@ $(function(){
           }
         });
 
-
-
-
-
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
-
-
-$("#toggle").click(function(){
-
-         $("#target").slideToggle( 'slow',function(){
-         $("#toggle").text($("#target").is(':visible') ? "▾ Valoración Física" : "▸ Valoración Física");
- });
-});
-
- $("#toggle2").click(function(){
-
-         $("#target2").slideToggle( 'slow',function(){
-         $("#toggle2").text($("#target2").is(':visible') ? "▾ Programa de Inicio Rápido" : "▸ Programa de Inicio Rápido");
- });
-});
-
- $("#toggle3").click(function(){
-
-         $("#target3").slideToggle( 'slow',function(){
-         $("#toggle3").text($("#target3").is(':visible') ? "▾ Sistema de Seguimiento" : "▸ Sistema de Seguimiento");
- });
-});
-
-$('#target').hide();
-$('#target2').hide();
-$('#target3').hide();
-
-$('#contactform').submit(function(e){
-    console.log('submit event fired');
-
-
-$.post('submit.php', $('#contactform').serialize(),function(data){
-console.log(data);
-Shadowbox.open({
-        content:    '<div id="welcome-msg">¡Tu mensaje ha sido enviado! </div>',
-        player:     "html",
-        title:      "KOSPORT",
-        height:     70,
-        width:      390
-    });
-});
-
-    e.preventDefault();
-return false;
+    $(function(){
+         $('#showall').click(function(){
+               $('.targetDiv').show();
+        });
+        $('.showSingle').click(function(){
+              $('.targetDiv').fadeOut("fast");;
+              $('#div'+$(this).attr('target')).fadeIn("fast");
+        });
+    $('.targetDiv').fadeOut("fast");;
+$('#div1').fadeIn("fast");
 
 });
+
+
 
 
 });
