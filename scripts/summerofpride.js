@@ -5,7 +5,7 @@ $(function(){
         var ds = new Miso.Dataset({
           importer : Miso.Dataset.Importers.GoogleSpreadsheet,
           parser : Miso.Dataset.Parsers.GoogleSpreadsheet,
-          key : "2PACX-1vTBySEbvEgVsSkmecl5SUDpQLEp5lzdPKWbGEPhILAE5w1YGnSwDo3TNHQ7ZoKGkiYfpijqS92tcOwQ",
+          key : "0AmiwpEaQwxurdGlpbkJTSy1qZ2dYMF9YOGNmX3RkYVE",
           worksheet : "1"
         });
 
