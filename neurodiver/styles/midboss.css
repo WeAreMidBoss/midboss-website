@@ -357,3 +357,7 @@ fieldset[disabled] .btn-pink.active {
   background-color: #2f262f;
   overflow:hidden;
 }
+
+#eightyeight {
+  padding:20px;
+}
