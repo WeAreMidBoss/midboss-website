@@ -70,6 +70,7 @@ $(function(){
     $('.targetDiv').fadeOut("fast");;
 $('#div3').fadeIn("fast");
 
+
 });
 
 
