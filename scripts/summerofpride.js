@@ -68,7 +68,7 @@ $(function(){
               $('#div'+$(this).attr('target')).fadeIn("fast");
         });
     $('.targetDiv').fadeOut("fast");;
-$('#div3').fadeIn("fast");
+$('#div2').fadeIn("fast");
 
 
 });
