@@ -334,5 +334,11 @@ fieldset[disabled] .btn-pink.active {
   color: #E195BF;
   background-color: #ffffff;
 }
+
+.mediainfo {
+  color: #aaa;
+  font-size: .9em;
+
+}
 /*
 .mc-layout__modalContent{ height: auto !important; }*/
