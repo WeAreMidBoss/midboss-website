@@ -160,7 +160,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-12">
-<p>&copy; Copyright 2018<br>
+<p>&copy; Copyright <span id="year"></span><br>
             MidBoss, LLC.<br>
           </p>
         </div>
@@ -176,6 +176,9 @@
     <div>
   </footer>
 
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
