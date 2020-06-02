@@ -212,6 +212,12 @@ footer .social-links a:last-child img {
   padding-bottom: 15px;
 }
 
+.merch{
+    font-family: 'BebasNeue';
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
 @media (min-width: 576px) {
   .navbar {
     background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%)!important; /* FF3.6-15 */
