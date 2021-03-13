@@ -45,13 +45,14 @@
         <div><h3>リリース日:</h3><p>11月22日2017年</p></div>
         <div><h3>プラットフォーム:</h3><p>
           <a href="http://store.steampowered.com/app/330820" target="_blank" class="external">Windows / Mac / Linux</a><br>
+          <a href="https://store-jp.nintendo.com/list/software/70010000009504.html" target="_blank" class="external">Switch</a><br>
           <a href="https://store.playstation.com/#!/en-us/games/2064-read-only-memories/cid=UP0436-CUSA06169_00-READONLYMEMORIES" target="_blank" class="external">PS4</a><br>
           <a href="https://store.playstation.com/en-us/product/UP0436-PCSE00972_00-READONLYMEMORIES" target="_blank" class="external">PS Vita</a><br>
           <a href="https://itunes.apple.com/us/app/read-only-memories-type-m/id1342383410?mt=8" target="_blank" class="external">iOS</a><br>
           <a href="https://play.google.com/store/apps/details?id=com.midboss.rom&hl=en" target="_blank" class="external">Android</a>
         </p>
         </div>
-        <div><h3>ウェブサイト:</h3><p><a href="https://readonlymemori.es/jp" target="_blank" class="external">readonlymemori.es/jp</a></p></div>
+        <div><h3>ウェブサイト:</h3><p><a href="https://2064.io/jp" target="_blank" class="external">2064.io/jp</a></p></div>
       </div>
       <div id="description" class="w-7 w-s-10">
         <div id="intro">
@@ -180,7 +181,7 @@
     </div>
     <div id="about">
       <h2>MidBossについて</h2>
-      <p>MidBossはサンフランシスコにあるゲーム・メディア制作スタジオです。これまでのプロジェクトには高評価を受けたドキュメンタリーであるGaming in Colour、現在はサイバーパンクポイント・クリックアドベンチャーであるリードオンリーメモリーズのリリースを間近に控えています。</p>
+      <p>MidBossはサンフランシスコにあるゲーム・メディア制作スタジオです。これまでのプロジェクトには高評価を受けたドキュメンタリーであるGaming in Color、現在はサイバーパンクポイント・クリックアドベンチャーであるリードオンリーメモリーズのリリースを間近に控えています。</p>
 
       <p>会社を構成するメンバーは多様なバックグラウンドを持つプロフェッショナルたちです。「面白いメディアとは、包括的なキャラクターがそのメディアの象徴か、それ以上の存在になれる環境を作り出すことが出来るもの」という考えをもとに会社を立ち上げました。</p>
     </div>
@@ -199,18 +200,23 @@
       </div>
       <div id="contact" class="w-5 w-xs-10">
         <h2>連絡先</h2>
-        <p><strong>連絡用アドレス</strong><br><a href="mailto:info@midboss.com">info@midboss.com</a><br><a href="mailto:support@playism.jp">support@playism.jp</a></p>
+        <p><strong>連絡用アドレス</strong><br><a href="mailto:info@midboss.com">info@midboss.com</a>
         <p><strong>Twitter</strong><br><a href="http://twitter.com/ROMAdventure" target="_blank" class="external">twitter.com/ROMAdventure</a></p>
         <p><strong>Facebook</strong><br><a href="http://facebook.com/ROMAdventure" target="_blank" class="external">facebook.com/ROMAdventure</a></p>
-        <p><strong>ウェブサイト</strong><br><a href="http://readonlymemori.es/jp" target="_blank" class="external">readonlymemori.es/jp</a></p>
+        <p><strong>ウェブサイト</strong><br><a href="http://2064.io/jp" target="_blank" class="external">2064.io/jp</a></p>
       </div>
     </div>
 
-    <footer>
+<footer>
       <p>
-        <a href="http://midboss.com"  target="_blank" class="external">MidBoss, LLC. © 2018</a>
+        <a href="http://midboss.com"  target="_blank" class="external">&copy; <span id="year"></span> MidBoss, LLC.<br></a>
       </p>
     </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
   </main>
 </body>
 </html>
