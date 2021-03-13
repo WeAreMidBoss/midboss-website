@@ -147,11 +147,16 @@
       </div>
     </div>
 
-    <footer>
+<footer>
       <p>
-        <a href="http://midboss.com"  target="_blank" class="external">MidBoss, LLC. © 2018</a>
+        <a href="http://midboss.com"  target="_blank" class="external">&copy; <span id="year"></span> MidBoss, LLC.<br></a>
       </p>
     </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
   </main>
 </body>
 </html>
