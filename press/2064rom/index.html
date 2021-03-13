@@ -44,11 +44,17 @@
         <div><h3>Developer:</h3><address>MidBoss<br>Based in Berkeley,<br>California</address></div>
         <div><h3>Release Date:</h3><p>2015</p></div>
         <div><h3>Platforms:</h3><p>
-          <a href="http://store.steampowered.com/app/330820" target="_blank" class="external">Windows / Mac / Linux</a><br>
+          PC<br>
+          <a href="http://store.steampowered.com/app/330820" target="_blank" class="external">Steam</a><br>
+          <a href="https://midboss.itch.io/rom" target="_blank" class="external">itch.io</a><br>
+          <a href="https://www.gog.com/game/read_only_memories" target="_blank" class="external">GOG</a><br>
+          <a href="https://www.humblebundle.com/store/2064-read-only-memories" target="_blank" class="external">Humble Store</a><br>
+          Consoles<br>
           <a href="https://www.nintendo.com/games/detail/2064-read-only-memories-integral-switch" target="_blank" class="external">Switch</a><br>
           <a href="https://store.playstation.com/#!/en-us/games/2064-read-only-memories/cid=UP0436-CUSA06169_00-READONLYMEMORIES" target="_blank" class="external">PS4</a><br>
           <a href="https://store.playstation.com/en-us/product/UP0436-PCSE00972_00-READONLYMEMORIES" target="_blank" class="external">PS Vita</a><br>
           <a href="https://www.microsoft.com/en-us/store/p/2064-Read-Only-Memories/C53VZ4C31G6R" target="_blank" class="external">Xbox One</a><br>
+          Mobile<br>
           <a href="https://itunes.apple.com/us/app/read-only-memories-type-m/id1342383410?mt=8" target="_blank" class="external">iOS</a><br>
           <a href="https://play.google.com/store/apps/details?id=com.midboss.rom&hl=en" target="_blank" class="external">Android</a>
         </p>
@@ -223,11 +229,16 @@
       </div>
     </div>
 
-    <footer>
+<footer>
       <p>
-        <a href="http://midboss.com"  target="_blank" class="external">MidBoss, LLC. © 2018</a>
+        <a href="http://midboss.com"  target="_blank" class="external">&copy; <span id="year"></span> MidBoss, LLC.<br></a>
       </p>
     </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
   </main>
 </body>
 </html>
