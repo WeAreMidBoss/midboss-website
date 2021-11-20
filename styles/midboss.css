@@ -216,7 +216,15 @@ footer .social-links a:last-child img {
     font-family: 'BebasNeue';
     font-weight: normal;
     font-size: 1.8rem;
+    text-align: center;
+    line-height: 1em;
+    margin: 20px 0 20px 0;
 }
+
+.merch img{
+  margin-bottom: 20px;
+}
+
 
 @media (min-width: 576px) {
   .navbar {
